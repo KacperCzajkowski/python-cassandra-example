@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  base:
+    build:
+      context: ./
+      dockerfile: docker/Dockerfile
+    image: python-base
+    volumes:
+      - .:/home/python-base/project
+    environment:
+      PYTHONPATH: /home/python-base/project/src
+    networks:
+      - default
+  cassandra:
+    image: cassandra:latest
+    networks:
+      - default
+    ports:
+      - "9042:9042"
