@@ -1,8 +1,7 @@
 from cassandra.cluster import Cluster
 
 if __name__ == '__main__':
-    cluster = Cluster(['host.docker.internal'])
+    cluster = Cluster(['127.0.0.1'])
     session = cluster.connect()
 
-    rows = session.execute("SELECT keyspace_name FROM system")
-    print(rows)
+    print(session.execute("SELECT release_version FROM system.local").one())
