@@ -4,7 +4,7 @@
 ## Windows
 1. aby zainstalować dockera wymagane jest środowisko linuxowe dla winowsa(wsl 2)
 https://learn.microsoft.com/en-us/windows/wsl/install
-Istotne jest zainstalowwanie wsl w wersji 2 
+Istotne jest zainstalowwanie wsl w wersji 2. 
 Dystrybucja linuxa nie jest ważna może być domyślna 
 2. Instalacja Dockera  
 https://docs.docker.com/desktop/install/windows-install/ 
@@ -13,14 +13,14 @@ https://www.youtube.com/watch?v=2ezNqqaSjq8
 
 ## Linux
 https://docs.docker.com/engine/install/ubuntu/
-Upewnijcie sie że dodaliście użytkownika do grupy docker
-Jezeli bada problemy z docker compose należy je doinstalować  
+Upewnijcie się, że dodaliście użytkownika do grupy docker.
+Jeżeli  będą problemy z docker compose należy go doinstalować  
 https://docker-docs.netlify.app/compose/install/
 
 
 ## Uwaga
-Poniże komendy wykonujemy w terminalu Linuxa 
-Osoby z Windowsem odpalają dystrybucje linuxa zainstalowaną wraz z wsl
+Poniższe  komendy wykonujemy w terminalu Linuxa. 
+Osoby z Windowsem odpalają dystrybucje linuxa zainstalowaną wraz z wsl.
 
 ### Instalacja narzędzia make
 Żeby zainstalować make'a należy wykonać polecenie:
