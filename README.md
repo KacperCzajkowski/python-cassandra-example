@@ -1,5 +1,26 @@
 # python-cassandra-example
 
+### Instalacja dockera
+## Windows
+1. Do zainstalować dockera wymagane jest środowisko linuxowe dla winowsa(wsl 2)
+https://learn.microsoft.com/en-us/windows/wsl/install
+Istotne jest zainstalowwanie wsl w wersji 2. 
+Dystrybucja linuxa nie jest ważna może być domyślna 
+2. Instalacja Dockera  
+https://docs.docker.com/desktop/install/windows-install/ 
+#instrukcja wideo 
+https://www.youtube.com/watch?v=2ezNqqaSjq8
+
+## Linux
+https://docs.docker.com/engine/install/ubuntu/
+Upewnijcie się, że dodaliście użytkownika do grupy docker.
+Jeżeli  będą problemy z docker compose należy go doinstalować  
+https://docker-docs.netlify.app/compose/install/
+
+
+## Uwaga
+Poniższe  komendy wykonujemy w terminalu Linuxa. 
+Osoby z Windowsem odpalają dystrybucje linuxa zainstalowaną wraz z wsl.
 
 ### Instalacja narzędzia make
 Żeby zainstalować make'a należy wykonać polecenie:
@@ -29,6 +50,13 @@ W celu sprawdzenia, czy się udało można wykonać polecenie:
 make list-containers
 ```
 Ono powinno wylistować wszystkie aktywne kontenery (w naszym przypadku 1)
+
+## Casandra bez docker-compose 
+Instrukcja instalacji casandry wraz CQLSH
+https://cassandra.apache.org/_/quickstart.html
+
+Dokumentacja casandry 
+https://cassandra.apache.org/doc/latest/
 
 ## Uruchamianie skryptów
 ### Zalecane podejście
