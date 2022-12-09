@@ -2,7 +2,7 @@
 
 ### Instalacja dockera
 ## Windows
-1. aby zainstalować dockera wymagane jest środowisko linuxowe dla winowsa(wsl 2)
+1. Do zainstalować dockera wymagane jest środowisko linuxowe dla winowsa(wsl 2)
 https://learn.microsoft.com/en-us/windows/wsl/install
 Istotne jest zainstalowwanie wsl w wersji 2. 
 Dystrybucja linuxa nie jest ważna może być domyślna 
