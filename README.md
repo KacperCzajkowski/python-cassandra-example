@@ -8,7 +8,8 @@ Istotne jest zainstalowwanie wsl w wersji 2.
 Dystrybucja linuxa nie jest ważna może być domyślna 
 2. Instalacja Dockera  
 https://docs.docker.com/desktop/install/windows-install/ 
-####instrukcja wideo 
+
+#### instrukcja wideo 
 https://www.youtube.com/watch?v=2ezNqqaSjq8
 
 ### Linux
