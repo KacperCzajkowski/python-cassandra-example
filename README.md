@@ -63,7 +63,7 @@ https://cassandra.apache.org/doc/latest/
 ### Zalecane podejście
 Należy uruchomić komendę:
 ```bash
-make bash
+make console
 ```
 Ona przeniesie nas do kontenera zawierającego pythona oraz zainstalowane potrzebne paczki.
 Tam możemy uruchamiać skrypty poprzez `python3 sciezka_do_skrypu`
