@@ -5,7 +5,7 @@ console:
 	docker-compose run base bash
 
 cassandra:
-	docker-compose up cassandra -d
+	docker-compose up -d cassandra
 
 down:
 	docker-compose down
