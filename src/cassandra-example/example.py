@@ -3,7 +3,7 @@ import random
 from cassandra.cluster import Cluster, Session
 from cassandra.protocol import SyntaxException
 
-CLUSTER_ADDRESS = 'localhost'
+CLUSTER_ADDRESS = 'host.docker.internal'
 KEY_SPACE = "mykeyspace"
 NAMES = ['Kacper', 'Dominik', 'Marcin', 'Krystian', 'Sebastian']
 EMAILS = ['test@test.pl', 'wsad@gmail.com', 'essa@mlodziez.eu', 'users@mat.umk.pl']
